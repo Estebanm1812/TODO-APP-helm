@@ -1,0 +1,14 @@
+releases:
+  - name: auth-api
+    chart: ./charts/auth-api  # Path to your chart directory
+  - name: frontend
+    chart: ./charts/frontend
+  - name: users-api
+    chart: ./charts/users-api
+  - name: todos-api
+    chart: ./charts/todos-api
+  - name: log-message-procesor
+    chart: ./charts/log-message-processor
+  - name: redis
+    chart: stable/redis
+ 
